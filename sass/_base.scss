@@ -1,0 +1,103 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  font-size: $font-size-root;
+}
+
+*,
+*::before,
+*::after,
+input[type="search"] {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: $font-size-base;
+  font-family: $font-family-sans-serif;
+  line-height: $line-height-base;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+blockquote,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+  margin: 0;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+iframe {
+  border: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+//
+// Remove `list-style` bullets of nav lists.
+//
+
+nav ul {
+	list-style: none;
+}
+
+//
+// Make images responsive.
+//
+
+img {
+  max-width: 100%;
+}
+
+[tabindex="-1"]:focus {
+  outline: none !important;
+}
+
+//
+// Remove delay from tapping on clickable elements.
+//
+
+a,
+area,
+button,
+input,
+label,
+select,
+textarea,
+[tabindex] {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}

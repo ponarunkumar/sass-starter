@@ -11,8 +11,7 @@ I constantly find myself starting web development projects with the same needs. 
 
 ## Installation
 Several quick start options are available:
-- [Download the latest release](https://github.com/frekyll/sass-starter/archive/master.zip).
-- Clone the repo: ` git clone https://github.com/frekyll/sass-starter.git`.
+- Clone the repo: ` git clone https://github.com/ponarunkumar/sass-starter.git`.
 
 ## Usage
 Sass Starter uses a simple [npm script](https://docs.npmjs.com/misc/scripts) for its build system. To install, you must first [download and install node.js](https://nodejs.org/download/) (which includes npm). npm stands for node packaged modules and is a way to manage development dependencies through node.js.
